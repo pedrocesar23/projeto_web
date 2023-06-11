@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.background-messi {
+    background: rgba(3,0,12,0.7) url(imagens/messi.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130vh;
+    max-width: 100%;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+
+nav a{
+    color: #fff;
+    font-weight: 500;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+
+#button-enter {
+    display:flex;
+    gap: 2rem;
+    align-items: center;
+    color: #da2535;
+}
+
+#button-enter button{
+    background-color: #da2535 ;
+    padding: 1px;
+    color: #080000;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#button-enter a{
+    color: #000000;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+.messi-meio-container{
+    margin-left: 14%;
+    margin-top: 12%;
+    max-width: 100%;
+}
+
+.meio-messi h1{
+    color: #fff;
+    font-size: 68px;
+}
+
+.meio-messi p{
+    color: #f9f9f9;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+
+.btn {
+    background-color: #da2535;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    width: 150px;
+}
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 6rem;
+}
+
+.resultados img {
+    width: 100px;
+    height: auto;
+}
+
+.resultados h3 {
+    font-size: 32px;
+}
+
+.resultados h2,p {
+    font-size: 62px;
+}
+
+#bg-white p{
+    font-size: 10px;
+    color: #515151;
+    line-height: 10px;
+}
+
+.bg-hero {
+    background: rgba(3,0,12,0.7) url(imagens/bg.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 80vh;
+    width: 100%;
+}
+
+#bg-white {
+    position: absolute;
+    background-color: #fff;
+    width: 500px;
+    padding: 50px;
+    top: 200%;
+   left: 28%;
+}
+
+#bg-white h1 {
+    color: #0b1421;
+    margin-bottom: 10px;
+    border-left: solid 2px #da2535;
+
+}
+
+#bg-white a {
+    color: #da2535;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.cards img {
+    width: 350px;
+    height: auto;
+}
+
+.cards p {
+    font-size: 10px;
+    font-weight: 600;
+    color: #da2535;
+}
+
+.cards span {
+    font-size: 10px;
+    font-weight: 600;
+    color: #0b1421;
+}
+
+.eqp-principal {
+    display: flow-root;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    gap: 1rem;
+   
+    
+}
+
+.noticia h1 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-left: solid 2px #da2535;
+}
+
+.noticia button {
+    margin-bottom: 1rem;
+}
+
+.btn-container { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+.paragrafo {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+
+.cards h4{
+    margin-top: 1rem;
+}
+
+.card-footer p {
+    font-size: 13px;
+    color: #F9F9F9;
+    line-height: 30px;
+}
+
+footer {
+    background-color: #0b1421;
+    padding: 4rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    flex: wrap;
+    gap: 8rem;
+}
+
+.card-footer h1 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-aluno p{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card-aluno h1{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    
+}
